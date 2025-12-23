@@ -3,7 +3,7 @@
 $(document).ready(function () {
     'use strict';
 
-    var tag    = ':::',
+    var tag    = '||',
         nl     = '\n\n',
         textPrompt = 'Spoiler Text';
 

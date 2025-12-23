@@ -8,12 +8,12 @@ Spoiler. Ability to control visibility of the content in posts. Works better wit
 Example:
 
 ```
-:::
+||
 
-Spoiler's content goes here, it should start and end with at least 3 colons.
-It should have a blank lines around the 3 colons tags.
+Spoiler's content goes here, it should start and end with two pipe characters.
+It should have a blank lines around the pipe tags.
 
-:::
+||
 ```
 
 ## Table of contents

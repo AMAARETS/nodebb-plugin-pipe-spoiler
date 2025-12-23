@@ -1,27 +1,30 @@
 {
-  "name": "nodebb-plugin-ns-spoiler",
-  "version": "8.0.0",
-  "description": "Spoiler. Ability to control visibility of the content in posts. Works better with Markdown syntax.",
+  "name": "nodebb-plugin-pipe-spoiler",
+  "version": "8.0.1",
+  "description": "Spoiler plugin using pipe syntax (||text||). Ability to control visibility of content in posts with double pipe notation.",
   "main": "./plugin/index.js",
   "scripts": {
     "test": "mocha -r ./test/setup --recursive"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler.git"
+    "url": "git+https://github.com/AMAARETS/nodebb-plugin-pipe-spoiler.git"
   },
   "keywords": [
     "spoiler",
+    "pipe",
+    "double-pipe",
     "markdown",
     "content",
-    "composer"
+    "composer",
+    "nodebb"
   ],
   "author": "Nicolas Siver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler/issues"
+    "url": "https://github.com/AMAARETS/nodebb-plugin-pipe-spoiler/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler#readme",
+  "homepage": "https://github.com/AMAARETS/nodebb-plugin-pipe-spoiler#readme",
   "nbbpm": {
     "compatibility": "^1.18.0"
   },

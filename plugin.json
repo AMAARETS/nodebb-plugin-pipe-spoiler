@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-ns-spoiler",
-  "name": "NodeBB Spoiler",
-  "description": "Spoiler. Ability to control visibility of the content in posts. Works better with Markdown syntax.",
-  "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler",
+  "id": "nodebb-plugin-pipe-spoiler",
+  "name": "NodeBB Pipe Spoiler",
+  "description": "Spoiler plugin using pipe syntax (||text||). Ability to control visibility of content in posts with double pipe notation.",
+  "url": "https://github.com/AMAARETS/nodebb-plugin-pipe-spoiler",
   "library": "./plugin/index.js",
   "hooks": [
     {

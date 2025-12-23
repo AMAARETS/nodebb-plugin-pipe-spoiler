@@ -11,7 +11,7 @@ describe('Regular Expressions', () => {
     });
 
     function wrap(content) {
-        return `:::${content}:::`;
+        return `||${content}||`;
     }
 
     it('matches spoiler', function () {
@@ -27,7 +27,7 @@ spoiler content 1<br />
     });
 
     it('identifies several spoilers', function () {
-        expect(':::a::: and :::<a>::: more :::\n:::'.replace(spoilerReg, '')).to.be.equal(' and  more ');
+        expect('||a|| and ||<a>|| more ||\n||'.replace(spoilerReg, '')).to.be.equal(' and  more ');
     });
 
 });
